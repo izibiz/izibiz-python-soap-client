@@ -295,10 +295,10 @@ class EArchiveActions:
 
 
 eArchiveActions = EArchiveActions()
-# eArchiveActions.write_to_archieve_extended()
-# eArchiveActions.read_from_archive()
-# eArchiveActions.get_archive_status()
-# eArchiveActions.cancel_earsiv_invoice()
-# eArchiveActions.get_email_archice_invoice()
+eArchiveActions.write_to_archieve_extended()
+eArchiveActions.read_from_archive()
+eArchiveActions.get_archive_status()
+eArchiveActions.cancel_earsiv_invoice()
+eArchiveActions.get_email_archice_invoice()
 eArchiveActions.get_archice_report()
 eArchiveActions.read_earchive_report()

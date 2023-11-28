@@ -3,9 +3,9 @@
     <ns1:UBLVersionID>2.1</ns1:UBLVersionID>
     <ns1:CustomizationID>TR1.2</ns1:CustomizationID>
     <ns1:ProfileID>EARSIVFATURA</ns1:ProfileID>
-    <ns1:ID>SFT2023000000778</ns1:ID>
+    <ns1:ID>SFT2023000006843</ns1:ID>
     <ns1:CopyIndicator>false</ns1:CopyIndicator>
-    <ns1:UUID>e3af29b9-0dde-416a-9adf-db723bc0cd50</ns1:UUID>
+    <ns1:UUID>8a9b9cbe-c68a-48b7-9716-af40d16faf3a</ns1:UUID>
     <ns1:IssueDate>2023-11-09</ns1:IssueDate>
     <ns1:IssueTime>18:12:19.0000000+03:00</ns1:IssueTime>
     <ns1:InvoiceTypeCode>SATIS</ns1:InvoiceTypeCode>

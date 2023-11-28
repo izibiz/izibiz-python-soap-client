@@ -181,8 +181,8 @@ class DespatchAdviceActions:
 
 
 despatchAdviceActions = DespatchAdviceActions()
-# despatchAdviceActions.send_despatch_advice()
-# despatchAdviceActions.load_despatch_archice()
-# despatchAdviceActions.get_despatch_advice()
+despatchAdviceActions.send_despatch_advice()
+despatchAdviceActions.load_despatch_archice()
+despatchAdviceActions.get_despatch_advice()
 despatchAdviceActions.get_despatch_advice_with_status()
-# despatchAdviceActions.send_despatch_response()
+despatchAdviceActions.send_despatch_response()

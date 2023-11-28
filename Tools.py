@@ -1,13 +1,10 @@
 import base64
-import os
 import random
 import re
-import sys
 import uuid
 import xml.etree.ElementTree as ET
 import zipfile
 from datetime import datetime
-from pprint import pprint
 from Variables import Variable
 
 import requests
