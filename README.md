@@ -24,7 +24,7 @@ Eğer entegrasyona yeni başlıyorsanız https://dev.izibiz.com.tr adresi altın
   ```
 Alanlarına ilgili kullanıcı adı ve şifre değeri girilir. Daha sonra Authorization.py dosyası koşulur. Projede ilk koşulması gereken dosya Authorization.py dosyasıdır. Token alma işlemi bu sınıfta gerçekleştirilir.  Bu aşamada ayrıca proje boyunca kullanılacak olan dosya dizinleri de oluşturulur.
 
-Her python dosyasında import edilen kütüphaneler belirtilmiştir. Bu kütüphanler kodun başarılı bir şekilde çalışması gereklidir. Kurulum esnasında kodu çalıştırmadan önce bu kütüphanelerin import edilmesi gerekmektedir. İmport işlemi ide yardımıyla gerekli kütüphanenin üzerine tıklanarak otomotik olarak yada farklı yöntemler kullanarak yapılabilir.
+Her python dosyasında import edilen kütüphaneler belirtilmiştir. Bu kütüphanler kodun başarılı bir şekilde çalışması gereklidir. Kurulum esnasında kodu çalıştırmadan önce bu kütüphanelerin import edilmesi gerekmektedir. İmport işlemi ide yardımıyla gerekli kütüphanenin üzerine tıklanarak otomotik olarak yada farklı yöntemler kullanarak yapılabilir. Ayrıca Python interpreter(yorumlayıcı)'in de eklenmiş olduğuna dikkat edilmelidir.
 
 İlgili uygulamaların çeşitli aşamalarında( örneğin belge yükleme senaryoları gibi) gerekli olacak şablon belgeler **Required_Files** dizini altında her uygulamaya ait dosya içerisinde **template.xml** ismiyle mevcuttur. İstenildiğinde bu şablon belgeler belirtilen dizin üzerinden değiştirilebilir.
 
