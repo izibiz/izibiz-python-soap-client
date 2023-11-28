@@ -15,8 +15,8 @@ class AuthWSActions:
         loginRequest = LoginRequest()
         login_response = LoginResponse()
         authenticationServicePortLoginOutput = AuthenticationServicePortLoginOutput()
-        loginRequest.user_name = "izibiz-test2"
-        loginRequest.password = "izi321"
+        loginRequest.user_name = "kullanici adi giriniz"
+        loginRequest.password = "sifre giriniz"
 
         client = Client.from_service(AuthenticationServicePortLogin)
         request = AuthenticationServicePortLoginInput(body=AuthenticationServicePortLoginInput.Body(login_request=loginRequest))
