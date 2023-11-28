@@ -1,102 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><ns0:Invoice xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+<ns0:Invoice xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
 
-    <ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature_SMM2023000000196">
-<ds:SignedInfo>
-<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
-<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-<ds:Reference Id="Reference-Id-ec6858b5-8f9f-4517-ae16-3a8741432fc3" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signed-Properties-Id-cc3b7802-0d4e-44ee-bc8c-d2a23db1f1d1">
-<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>Kx5GNfw26ad19XISnqFqY50nc3rbu+VWRmoxb83DH2Q=</ds:DigestValue>
-</ds:Reference>
-<ds:Reference Id="Reference-Id-7dd703ca-ab87-49f8-bfba-f09568ed3ca8" URI="">
-<ds:Transforms>
-<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-</ds:Transforms>
-<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>aM+x2Ywtd/feUiIC5xDvJZxW2+cEB5SsSGIDVcwLWW4=</ds:DigestValue>
-</ds:Reference>
-</ds:SignedInfo>
-<ds:SignatureValue Id="Signature-Value-Id-587e4c5a-8352-4dcd-9ae3-cdcd634a23c4">j9xg9UTzLRXiqr4qkP52rBXoyFhNkKv+PiWmWoRdFry2kMJuXecICH5Mt8grsqGKUgi1IlORf4oY
-Dkkusk3WG8kQ0/Y0Lkrlop6JJG0oKEKQL1YkpX7f6+O3LhCWQw5bLJW89N82hKZ4U+eQtlZ+JpgO
-lGtsGP42p4VlvltcHA1izbGJDVQ0Y0qvBmj22tVD37vwlj8GfkxbHNkNjkSPKJ7n04Zrvw6STK07
-Kt00c4UCRFPFMnKTiu8mAmuNllhtTHC9S/ObnLPJrJb1o4uz+Etb1/y2gAWqhWZ0Ha2hJ7tyFjOP
-DzubsKIdILOr8e8gIV4PHihipFg9gjJoJfqdnw==</ds:SignatureValue>
-<ds:KeyInfo>
-<ds:X509Data>
-<ds:X509Certificate>MIIFsDCCBJigAwIBAgIHK/xlWg/VfjANBgkqhkiG9w0BAQsFADBcMQswCQYDVQQGEwJUUjFNMEsG
-A1UEAwxETWFsaSBNw7xow7xyIEVsZWt0cm9uaWsgU2VydGlmaWthIEhpem1ldCBTYcSfbGF5xLFj
-xLFzxLEgLSBTw7xyw7xtIDIwHhcNMjEwMTI1MTEyODQyWhcNMjQwMTI1MTEyODQyWjBYMRMwEQYD
-VQQFEwo0ODQwODQ3MjExMUEwPwYDVQQDDDjEsFrEsELEsFogQsSwTMSwxZ7EsE0gVEVLTk9MT0rE
-sExFUsSwIEFOT07EsE0gxZ7EsFJLRVTEsDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
-ALQUQUDxCIWaoqegAAZgOkdyXBf/OyYcsgFKlZZvy0bLHF9FMrlrg+ymy9gbiJ83msiZHvwz2lxk
-ZcG18QwyPDfoUZxXo9cRRJMjoVqg0+Q+1dXBhZeIRPOCDmESJqSAlGkxuSQ72UmETU+Nd4cB0JK1
-tF4bUgf4mgQxAdAGirseyrrS7ITh2h/T0fnolb/6UUFW5lZWV5d1KEcudFjArETzHP3TC8p3iRoI
-okk0TOy2eyFDB3IVxyZrcwxVTp9+OyEfz0dhIEVbtLYff4zMxpOxcRnznWOVxd9f0Q5tihkcZJ0w
-bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBcCAwEAAaOCAnkwggJ1MB8GA1UdIwQYMBaAFAOE
-+pcx5/SHGS9lK+G0G2Onr3W+MB0GA1UdDgQWBBQxX2O1wWT++5mLoCqVYDONPIXMXzAOBgNVHQ8B
-Af8EBAMCB4AwggEzBgNVHSAEggEqMIIBJjCCASIGC2CGGAECAQEFBwQBMIIBETAqBggrBgEFBQcC
-ARYeaHR0cDovL2RlcG8ua2FtdXNtLmdvdi50ci9pbGtlMIHiBggrBgEFBQcCAjCB1R6B0gBCAHUA
-IABzAGUAcgB0AGkAZgBpAGsAYQAgAGkAbABlACAAaQBsAGcAaQBsAGkAIABzAGUAcgB0AGkAZgBp
-AGsAYQAgAHUAeQBnAHUAbABhAG0AYQAgAGUAcwBhAHMAbABhAHIBMQBuATEAIABvAGsAdQBtAGEA
-awAgAGkA5wBpAG4AIABiAGUAbABpAHIAdABpAGwAZQBuACAAdwBlAGIAIABzAGkAdABlAHMAaQBu
-AGkAIAB6AGkAeQBhAHIAZQB0ACAAZQBkAGkAbgBpAHoALjAMBgNVHRMBAf8EAjAAMBYGA1UdJQQP
-MA0GC2CGGAECAQEFBzIBMEEGA1UdHwQ6MDgwNqA0oDKGMGh0dHA6Ly9kZXBvLmthbXVzbS5nb3Yu
-dHIva3VydW1zYWwvbW1lc2hzLXMyLmNybDCBggYIKwYBBQUHAQEEdjB0MDwGCCsGAQUFBzAChjBo
-dHRwOi8vZGVwby5rYW11c20uZ292LnRyL2t1cnVtc2FsL21tZXNocy1zMi5jcnQwNAYIKwYBBQUH
-MAGGKGh0dHA6Ly9jaXNkdXBtbXMyLmt1cnVtc2FsLmthbXVzbS5nb3YudHIwDQYJKoZIhvcNAQEL
-BQADggEBAFqUmzv9v6+QHhn7ha5hbMmuLNcZAl6qiQlkGaRiEd/Ic5xhWlpFABeQkFh1qxqYpPhV
-dKnmr8kJztEiSFPD2PWC4uExsHqd8sJ/5Tg4AZxafUZ7P02qicpS1i7V/HvxmXgQrBkR2KbbHOwE
-HjkdPPQ2TNWHQnUtQzdo3SEXWiZeHtdGZCkQp2vc3C1Krds4BwTdLT+r2dDTpo8SDEh3cdpkwtHU
-qQPdOyKow6Lsyz+zaaVEnQrEmQPh4eUhzZRNUwViOQec4v0+kDX2uGpCDZXDo8pSt9kEv2ZnPqqQ
-D2IBiEtX6epVZiF1LgcjH+WUE9y7/UsgXAhx+unsuWos4bc=</ds:X509Certificate>
-</ds:X509Data>
-<ds:KeyValue>
-<ds:RSAKeyValue>
-<ds:Modulus>ALQUQUDxCIWaoqegAAZgOkdyXBf/OyYcsgFKlZZvy0bLHF9FMrlrg+ymy9gbiJ83msiZHvwz2lxk
-ZcG18QwyPDfoUZxXo9cRRJMjoVqg0+Q+1dXBhZeIRPOCDmESJqSAlGkxuSQ72UmETU+Nd4cB0JK1
-tF4bUgf4mgQxAdAGirseyrrS7ITh2h/T0fnolb/6UUFW5lZWV5d1KEcudFjArETzHP3TC8p3iRoI
-okk0TOy2eyFDB3IVxyZrcwxVTp9+OyEfz0dhIEVbtLYff4zMxpOxcRnznWOVxd9f0Q5tihkcZJ0w
-bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
-<ds:Exponent>AQAB</ds:Exponent>
-</ds:RSAKeyValue>
-</ds:KeyValue>
-</ds:KeyInfo>
-<ds:Object Id="Object-Id-05e2b3a4-7107-4425-b5f5-f0cfa58ba59d"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="Signature_SMM2023000000196">
-<xades:SignedProperties Id="Signed-Properties-Id-cc3b7802-0d4e-44ee-bc8c-d2a23db1f1d1">
-<xades:SignedSignatureProperties>
-<xades:SigningTime>2023-11-13T09:46:56.632+03:00</xades:SigningTime>
-<xades:SigningCertificate>
-<xades:Cert>
-<xades:CertDigest>
-<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>H5XmH1r8Vtpe3Dp0uOGDFmX+nVEE04QOIdMduvJnP5g=</ds:DigestValue>
-</xades:CertDigest>
-<xades:IssuerSerial>
-<ds:X509IssuerName>CN=Mali Mühür Elektronik Sertifika Hizmet Sağlayıcısı - Sürüm 2,C=TR</ds:X509IssuerName>
-<ds:X509SerialNumber>12380936231441790</ds:X509SerialNumber>
-</xades:IssuerSerial>
-</xades:Cert>
-</xades:SigningCertificate>
-<xades:SignerRole>
-<xades:ClaimedRoles>
-<xades:ClaimedRole>Supplier</xades:ClaimedRole>
-</xades:ClaimedRoles>
-</xades:SignerRole>
-</xades:SignedSignatureProperties>
-<xades:SignedDataObjectProperties>
-<xades:DataObjectFormat ObjectReference="#Reference-Id-7dd703ca-ab87-49f8-bfba-f09568ed3ca8">
-<xades:MimeType>text/xml</xades:MimeType>
-</xades:DataObjectFormat>
-</xades:SignedDataObjectProperties>
-</xades:SignedProperties>
-</xades:QualifyingProperties>
-</ds:Object>
-</ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions><ns1:UBLVersionID>2.1</ns1:UBLVersionID>
+    <ns1:UBLVersionID>2.1</ns1:UBLVersionID>
     <ns1:CustomizationID>TR1.2</ns1:CustomizationID>
     <ns1:ProfileID>EARSIVFATURA</ns1:ProfileID>
-    <ns1:ID>SMM2023000000196</ns1:ID>
+    <ns1:ID>SFT2023000021781</ns1:ID>
     <ns1:CopyIndicator>false</ns1:CopyIndicator>
-    <ns1:UUID>3353b5ea-bc9a-442c-ba41-2bb525260167</ns1:UUID>
+    <ns1:UUID>ccd9c796-08eb-45ab-9658-a1f064503dff</ns1:UUID>
     <ns1:IssueDate>2023-11-09</ns1:IssueDate>
     <ns1:IssueTime>18:12:19.0000000+03:00</ns1:IssueTime>
     <ns1:InvoiceTypeCode>SATIS</ns1:InvoiceTypeCode>
@@ -139,11 +48,11 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
                 <ns1:Name>SUFFATECH ARGE YAZILIM VE BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED SIRKETI</ns1:Name>
             </ns2:PartyName>
             <ns2:PostalAddress>
-                <ns1:StreetName>Yıldırım Beyazıt Mah. Aşık Veysel Blv. E.Ü TGB Idare
-                    ve Kuluçka 2 No:65/12
+                <ns1:StreetName>Y&#305;ld&#305;r&#305;m Beyaz&#305;t Mah. A&#351;&#305;k Veysel Blv. E.&#220; TGB Idare
+                    ve Kulu&#231;ka 2 No:65/12
                 </ns1:StreetName>
                 <ns1:CitySubdivisionName>Melikgazi</ns1:CitySubdivisionName>
-                <ns1:CityName>KAYSERİ</ns1:CityName>
+                <ns1:CityName>KAYSER&#304;</ns1:CityName>
                 <ns1:PostalZone>38010</ns1:PostalZone>
                 <ns2:Country>
                     <ns1:Name>Turkey</ns1:Name>
@@ -161,7 +70,7 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
         </ns2:SignatoryParty>
         <ns2:DigitalSignatureAttachment>
             <ns2:ExternalReference>
-                <ns1:URI>#Signature_SMM2023000000196</ns1:URI>
+                <ns1:URI>#Signature_UblInvoice.IDType</ns1:URI>
             </ns2:ExternalReference>
         </ns2:DigitalSignatureAttachment>
     </ns2:Signature>
@@ -175,11 +84,11 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
                 <ns1:Name>SUFFATECH ARGE YAZILIM VE BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED SIRKETI</ns1:Name>
             </ns2:PartyName>
             <ns2:PostalAddress>
-                <ns1:StreetName>Yıldırım Beyazıt Mah. Aşık Veysel Blv. E.Ü TGB Idare
-                    ve Kuluçka 2 No:65/12
+                <ns1:StreetName>Y&#305;ld&#305;r&#305;m Beyaz&#305;t Mah. A&#351;&#305;k Veysel Blv. E.&#220; TGB Idare
+                    ve Kulu&#231;ka 2 No:65/12
                 </ns1:StreetName>
                 <ns1:CitySubdivisionName>Melikgazi</ns1:CitySubdivisionName>
-                <ns1:CityName>KAYSERİ</ns1:CityName>
+                <ns1:CityName>KAYSER&#304;</ns1:CityName>
                 <ns1:PostalZone>38010</ns1:PostalZone>
                 <ns2:Country>
                     <ns1:Name>Turkey</ns1:Name>
@@ -202,7 +111,7 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
                 <ns1:ID schemeID="TCKN">11111111111</ns1:ID>
             </ns2:PartyIdentification>
             <ns2:PostalAddress>
-                <ns1:StreetName>ABC Sokak. YDE MAH. A BİNA KAT B DAİRE 10</ns1:StreetName>
+                <ns1:StreetName>ABC Sokak. YDE MAH. A B&#304;NA KAT B DA&#304;RE 10</ns1:StreetName>
                 <ns1:CitySubdivisionName>Melikgazi</ns1:CitySubdivisionName>
                 <ns1:CityName>KAYSERi</ns1:CityName>
                 <ns1:PostalZone>38010</ns1:PostalZone>
@@ -215,8 +124,8 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
                 <ns1:ElectronicMail>burakgulec@gmail.com</ns1:ElectronicMail>
             </ns2:Contact>
             <ns2:Person>
-                <ns1:FirstName>BURAK</ns1:FirstName>
-                <ns1:FamilyName>GÜLEÇ</ns1:FamilyName>
+                <ns1:FirstName>MUHAMMET</ns1:FirstName>
+                <ns1:FamilyName>C&#214;MERT</ns1:FamilyName>
             </ns2:Person>
         </ns2:Party>
     </ns2:AccountingCustomerParty>
@@ -230,11 +139,11 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
                 <ns1:Name>SUFFATECH ARGE YAZILIM VE BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED SIRKETI</ns1:Name>
             </ns2:PartyName>
             <ns2:PostalAddress>
-                <ns1:StreetName>Yıldırım Beyazıt Mah. Aşık Veysel Blv. E.Ü TGB Idare
-                    ve Kuluçka 2 No:65/12
+                <ns1:StreetName>Y&#305;ld&#305;r&#305;m Beyaz&#305;t Mah. A&#351;&#305;k Veysel Blv. E.&#220; TGB Idare
+                    ve Kulu&#231;ka 2 No:65/12
                 </ns1:StreetName>
                 <ns1:CitySubdivisionName>Melikgazi</ns1:CitySubdivisionName>
-                <ns1:CityName>KAYSERİ</ns1:CityName>
+                <ns1:CityName>KAYSER&#304;</ns1:CityName>
                 <ns1:PostalZone>38010</ns1:PostalZone>
                 <ns2:Country>
                     <ns1:Name>Turkey</ns1:Name>
@@ -298,7 +207,7 @@ bhOdpe0O93yS+KAhXeVWgH2LUU4NMa8ENdU4GBc=</ds:Modulus>
             </ns2:TaxSubtotal>
         </ns2:TaxTotal>
         <ns2:Item>
-            <ns1:Description>Fiyatı var</ns1:Description>
+            <ns1:Description>Fiyat&#305; var</ns1:Description>
             <ns1:Name>PROSER.1028</ns1:Name>
         </ns2:Item>
         <ns2:Price>
